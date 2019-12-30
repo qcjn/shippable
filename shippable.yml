@@ -4,5 +4,5 @@ branches:
     - master
 build:
   ci:
-    - npm install firebase -g
-    - firebase -V
+    - npm install firebase
+    - npx firebase -V
