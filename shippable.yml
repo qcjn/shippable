@@ -6,6 +6,6 @@ branches:
     - master
 build:
   ci:
-    - npm install firebase-tools -g
-    - firebase -V
+    - npm install firebase-tools
+    - npx firebase -V
 
